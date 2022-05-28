@@ -1,0 +1,29 @@
+{
+  "name": "friendchatbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoStackDev/friendchatBE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoStackDev/friendchatBE/issues"
+  },
+  "homepage": "https://github.com/NoStackDev/friendchatBE#readme",
+  "dependencies": {
+    "apollo-server": "^3.8.1",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
